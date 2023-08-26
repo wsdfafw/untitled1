@@ -1,6 +1,6 @@
 name: untitled1
 version: '${project.version}'
-main: github.buiawpkgew1.untitled1.CooldownTracker
+main: github.buiawpkgew1.untitled1.RandomTeleportOnDeath
 api-version: '1.20'
 description: A description of your plugin
 author: lroj

@@ -7,6 +7,8 @@ public final class Untitled2 extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        getServer().getPluginManager().registerEvents(new RandomTeleportOnDeath(), this);
+        getLogger().info("RandomTeleportPlugin 已启用！");
 
     }
 

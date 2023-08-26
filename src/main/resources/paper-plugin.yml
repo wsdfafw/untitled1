@@ -2,3 +2,5 @@ name: untitled1
 version: '${project.version}'
 main: github.buiawpkgew1.untitled1.Untitled1
 api-version: '1.20'
+description: A description of your plugin
+author: lroj

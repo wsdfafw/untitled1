@@ -15,5 +15,6 @@ public final class Untitled2 extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        getLogger().info("RandomTeleportPlugin 已禁用！");
     }
 }

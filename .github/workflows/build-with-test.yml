@@ -69,7 +69,7 @@ jobs:
             javaVersion: '20'  
     
     steps:        
-      - uses: FN-FAL113/minecraft-plugin-runtime-test@v1.1.2
+      - uses: FN-FAL113/minecraft-plugin-runtime-test@v1.1.7
         with:
           server-version: ${{ matrix.mcVersion }}
           java-version: ${{ matrix.javaVersion }}

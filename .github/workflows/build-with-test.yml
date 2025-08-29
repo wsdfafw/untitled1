@@ -22,7 +22,7 @@ jobs:
       run: mvn clean package --file pom.xml
       
     - name: Upload the artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: artifact-${{ github.event.number }}
         path: 'target/*.jar'
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 下载构建
-      uses: actions/download-artifact@v4.1.8
+      uses: actions/download-artifact@v5.0.0
         
     - name: 创建发布
       uses: softprops/action-gh-release@v2
